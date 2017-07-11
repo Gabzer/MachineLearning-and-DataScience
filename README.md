@@ -7,6 +7,8 @@
 **Big Data** is a deluge of data.
 
 **Machine Learning** is the ability of a machine to create, from an acquired experience, _a hypothesis_ capable of solving a problem.
->Two things to watch:
-	>>1.Measure of performance - percentage of correctly identified data.
-	>>2.Experience - what is pointed out by the user / programmer.
+
+Two things to watch:
+
+	1.Measure of performance - percentage of correctly identified data.	
+	2.Experience - what is pointed out by the user / programmer.
