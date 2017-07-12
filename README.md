@@ -1,4 +1,4 @@
-#Machine-Learning-and-Data-Science-with-Python course
+Machine-Learning-and-Data-Science-with-Python course
 =============================
 
 **Computational Intelligence** is a smart behavior automation.
@@ -30,10 +30,12 @@ define operações que podem ser realizados sobre os valores dos atributos.
 
 podem ser de escalas:
 * qualitativo       
+
                     - nominais      ->   valores são diferentes e carregam, a menor quantidade de informação possível.
 
                     - ordinais      ->   grandes, pequenos, médias; hierarquia.
 * quantitativos     
+
                     - intervalores  ->   os números variam em um intervalo.
 
                     - racionais     ->   carrega mais informação, tem o significado absoluto.
