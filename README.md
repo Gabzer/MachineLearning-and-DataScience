@@ -31,15 +31,31 @@ define operações que podem ser realizados sobre os valores dos atributos.
 podem ser de escalas:
 * qualitativo       
 
-                    - nominais      ->   valores são diferentes e carregam, a menor quantidade de informação possível.
+                    - nominais     ->   valores são diferentes e carregam, a menor quantidade de informação possível.
 
-                    - ordinais      ->   grandes, pequenos, médias; hierarquia.
+                    - ordinais     ->   grandes, pequenos, médias; hierarquia.
 * quantitativos     
 
-                    - intervalores  ->   os números variam em um intervalo.
+                    - intervalores ->   os números variam em um intervalo.
 
-                    - racionais     ->   carrega mais informação, tem o significado absoluto.
+                    - racionais    ->   carrega mais informação, tem o significado absoluto.
 
 Types of Learning
 -------------------
 
+1. Previsão: encotrar uma função que possa ser utilizada para prever um valor para novos dados. Objetos com entrada e saída.
+2. Descrição: explorar ou descrever um conjunto de dados. Objetos não possuem uma saída associada.
+
+Learning Hierarchy
+-------------------
+* indutivo
+
+    - supervisionado = preditivo -> tem um supervisor externo => conhecer a saída desejada de cada exemplo -> regressão = rótulos contínuos
+
+                                                                                                           -> classificação = rótulos discretos
+                                                                                            
+    - não-supervisionado = descritivo -> algoritmos exploram regularidades dos dados -> agrupamento = de acordo com sua similaridade
+
+                                                                                     -> sumarização = encontrar descrição compacta para dados
+
+                                                                                     -> associação = encontrar padrões frequentes de associação entre atributos
