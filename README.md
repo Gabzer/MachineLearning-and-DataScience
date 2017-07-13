@@ -31,14 +31,14 @@ define operações que podem ser realizados sobre os valores dos atributos.
 podem ser de escalas:
 * qualitativo       
 
-                    - nominais     ->   valores são diferentes e carregam, a menor quantidade de informação possível.
+                    - nominais     ->  valores são diferentes e carregam, a menor quantidade de informação possível.
 
-                    - ordinais     ->   grandes, pequenos, médias; hierarquia.
+                    - ordinais     ->  grandes, pequenos, médias; hierarquia.
 * quantitativos     
 
-                    - intervalores ->   os números variam em um intervalo.
+                    - intervalores ->  os números variam em um intervalo.
 
-                    - racionais    ->   carrega mais informação, tem o significado absoluto.
+                    - racionais    ->  carrega mais informação, tem o significado absoluto.
 
 Types of Learning
 -------------------
@@ -50,12 +50,24 @@ Learning Hierarchy
 -------------------
 * indutivo
 
-    - supervisionado = preditivo -> tem um supervisor externo => conhecer a saída desejada de cada exemplo -> regressão = rótulos contínuos
+    >supervisionado = preditivo -> tem um supervisor externo => conhecer a saída desejada de cada exemplo -> regressão = rótulos contínuos
 
                                                                                                            -> classificação = rótulos discretos
                                                                                             
-    - não-supervisionado = descritivo -> algoritmos exploram regularidades dos dados -> agrupamento = de acordo com sua similaridade
+    >não-supervisionado = descritivo -> algoritmos exploram regularidades dos dados -> agrupamento = de acordo com sua similaridade
 
                                                                                      -> sumarização = encontrar descrição compacta para dados
 
                                                                                      -> associação = encontrar padrões frequentes de associação entre atributos
+
+Supervised Learning
+-------------------
+entrada (_atributos_) e saída (_classe/rótulo_)
+
+o programa é "treinado" sobre um conjunto de dados pré-definido. Treinar um classificador para analise de sentimentos.
+
+**objetivo** = a partir do passado, prever o que se segue.
+
+**classificação** = subcategoria => consiste em atribuir um rótulo para uma nova amostra.
+
+**regressão** =  
