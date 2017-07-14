@@ -70,4 +70,23 @@ o programa é "treinado" sobre um conjunto de dados pré-definido. Treinar um cl
 
 **classificação** = subcategoria => consiste em atribuir um rótulo para uma nova amostra.
 
-**regressão** =  
+**regressão** = subcategoria => quando o valor tem o espectro contínuo, então podemos usá-lo.
+
+
+Non-Supervised Learning
+-------------------
+não rotulados mas com padrões.
+
+**objetivo** = desvendar a organização dos padrões existentes nos dados através de agrupamentos -> clusters = é possível descobrir similaridades e diferenças
+
+agrupar objetos em classes de objetos similares -> K-Means = algoritmo de agrupamento.
+
+
+Learning Techniques
+-------------------
+
+1. aprendizado semi-supervisionado = utiliza dados rotulados e não rotulados para treinamento.
+2. aprendizado por reforço = o algoritmo descobre por tentativa e erro quais ações geram as maiores recompensas.
+        2.1. _componentes_ = agente, ambiente e ações.
+        2.2. _objetivo_ = é que o agente escolha ações que maximizem a recompensa esperada ao longo do tempo. 
+
