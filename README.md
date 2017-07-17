@@ -90,3 +90,27 @@ Learning Techniques
         2.1. _componentes_ = agente, ambiente e ações.
         2.2. _objetivo_ = é que o agente escolha ações que maximizem a recompensa esperada ao longo do tempo. 
 
+
+NumPy
+===================
+
+Comparative example of the efficiency of NumPy:
+
+```python
+soma = 0
+for i in range(1, 100000001):
+        soma += i
+```
+
+e
+
+```python
+import numpy as np
+np.arange(1, 100000001).sun()
+```
+
+matPlotLib -> plota dados em 2D
+
+saber dimensões de uma matriz: matriz.ndim
+
+axes de uma matriz: axis = 0 ou 1
