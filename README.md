@@ -91,5 +91,7 @@ Learning Techniques
 
 1. aprendizado semi-supervisionado = utiliza dados rotulados e não rotulados para treinamento.
 2. aprendizado por reforço = o algoritmo descobre por tentativa e erro quais ações geram as maiores recompensas.
+
         2.1. _componentes_ = agente, ambiente e ações.
+        
         2.2. _objetivo_ = é que o agente escolha ações que maximizem a recompensa esperada ao longo do tempo. 

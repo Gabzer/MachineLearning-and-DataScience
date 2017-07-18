@@ -1,7 +1,9 @@
 NumPy
 ===================
 
-É pacote para a computação científica para python. Possibilidade de construção de objetos arrays n dimensional. Baseado em C = desempenho superior. Tem várias funções eficientes para a manipulação de objetos, que são matemáticas.
+É o pacote para a computação científica para python. Possibilidade de construção de **objetos arrays N dimensional**. Baseado em C = desempenho superior. Tem várias funções eficientes para a manipulação de objetos, que são matemáticas.
+
+Basicamente, serve para criação de matrizes e arrays complicadas mas com resolução eficiente.
 
 Comparative example of the efficiency of NumPy:
 
